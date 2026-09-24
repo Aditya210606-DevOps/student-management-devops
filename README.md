@@ -1,2 +1,2 @@
-# student-management-devops
-Agile Student Management System with DevOps CI Pipeline
+## Student Validation
+This branch demonstrates GitHub-Jira integration using SCRUM-5.
