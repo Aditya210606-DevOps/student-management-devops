@@ -16,3 +16,8 @@ def test_find_student():
 
     assert student is not None
     assert student["name"] == "Amit"
+
+from app import validate_email
+
+def test_valid_email():
+   assert validate_email("student@gmail.com") is not None

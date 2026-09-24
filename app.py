@@ -27,3 +27,9 @@ def find_student(student_id):
 if __name__ == "__main__":
     add_student(1, "Greeshma", "AI & DS")
     print(get_students())
+
+    import re
+
+def validate_email(email):
+    pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
+    return re.match(pattern, email) is not None
